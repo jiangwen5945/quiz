@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q1_single_choice",
+    "type": "single_choice",
+    "category": "历史",
+    "score": 10,
+    "options": [
+      {"id": "a", "text": "华盛顿"},
+      {"id": "b", "text": "林肯"},
+      {"id": "c", "text": "罗斯福"},
+      {"id": "d", "text": "杰斐逊"}
+    ],
+    "correct_answer": "a",
+    "content_md_path": "history_q1.md"
+  },
+  {
+    "id": "q2_multiple_choice",
+    "type": "multiple_choice",
+    "category": "地理",
+    "score": 15,
+    "options": [
+      {"id": "a1", "text": "亚洲"},
+      {"id": "b1", "text": "非洲"},
+      {"id": "c1", "text": "北美洲"},
+      {"id": "d1", "text": "南美洲"},
+      {"id": "e1", "text": "欧洲"},
+      {"id": "f1", "text": "大洋洲"}
+    ],
+    "correct_answer": ["a1", "e1"],
+    "content_md_path": "geography_q2.md"
+  },
+  {
+    "id": "q3_short_answer_exact",
+    "type": "short_answer",
+    "category": "科学",
+    "score": 20,
+    "correct_answer": "水",
+    "trim_whitespace": true,
+    "case_sensitive": false,
+    "alternatives": ["H2O"],
+    "content_md_path": "science_q3.md"
+  },
+  {
+    "id": "q4_single_choice_code",
+    "type": "single_choice",
+    "category": "编程",
+    "score": 10,
+    "options": [
+      {"id": "a", "text": "定义变量"},
+      {"id": "b", "text": "声明函数"},
+      {"id": "c", "text": "循环遍历"},
+      {"id": "d", "text": "条件判断"}
+    ],
+    "correct_answer": "c",
+    "content_md_path": "programming_q4.md"
+  },
+  {
+    "id": "q5_short_answer_concept",
+    "type": "short_answer",
+    "category": "常识",
+    "score": 15,
+    "correct_answer": ["光合作用", "光合"],
+    "trim_whitespace": true,
+    "case_sensitive": false,
+    "content_md_path": "general_q5.md"
+  }
+]
